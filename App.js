@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 
 // API Configuration - Updated with your Vercel backend
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://phyntra-backend-puho5zyw3-phyntra.vercel.app/api'
+  ? 'https://phyntra-backend.onrender.com'
   : 'http://localhost:8000/api';
 
 const App = () => {
